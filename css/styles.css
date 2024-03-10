@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    color: #ccc;
+}
+
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#productos ul {
+    padding: 0;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.productosTienda2{
+    width: 100%; 
+    height: auto; 
+    color: #ccc ;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%; 
+    height: auto; 
+}
+
+#carritoCompras{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+#lista-carritoCompras {
+    padding: 0;
+    color: #ccc;
+}
+
+#lista-listaCarrito li {
+    list-style: none;
+    color: #ccc;
+}
+
+#vaciarCarrito,
+#realizarCompra {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+}
+
+#buscar {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    text-decoration: black;
+    display: block;
+    width: 100%; 
+    box-sizing: border-box; 
+    border-radius: 5px; 
+    background-color: #ccc; 
+    cursor: pointer;
+}

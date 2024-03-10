@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda y Carrito de Compras</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <section id="productosTienda"></section>
+    <h1>Carrito de Compras</h1>
+    <div id="productos">
+        <div class="producto" data-nombre="producto1" data-precio="60000">
+            <img src="Imagenes-entrega1/blusa.png" alt="Camisa">
+            <p>Camisa - $60.000</p>
+        </div>
+        <div class="producto" data-nombre="producto2" data-precio="150000">
+            <img src="Imagenes-entrega1/jean.png" alt="Pantalón">
+            <p>Pantalón - $150.000</p>
+        </div>
+        <div class="producto" data-nombre="producto3" data-precio="200000">
+            <img src="Imagenes-entrega1/tennis.png" alt="Zapatos">
+            <p>Zapatos - $200.000</p>
+        </div>
+        <div class="producto" data-nombre="producto4" data-precio="40000">
+            <img src="Imagenes-entrega1/sombrero.png" alt="Sombrero">
+            <p>Sombrero - $40.000</p>
+        </div>
+        <div class="producto" data-nombre="producto5" data-precio="35000">
+            <img src="Imagenes-entrega1/bufanda.png" alt="Bufanda">
+            <p>Bufanda - $35.000</p>
+        </div>
+        <div class="producto" data-nombre="producto6" data-precio="50000">
+            <img src="Imagenes-entrega1/gafas.png" alt="Gafas">
+            <p>Gafas - $50.000</p>
+        </div>
+    </div>
+
+<!-- Sección del carrito de compras -->
+<section id="carritoCompras">
+    <h2>Carrito de Compras</h2>
+    <ul id="listaCarrito"></ul>
+    <p>Total: $<span id="total"></span></p>
+    <button id="vaciarCarrito">Vaciar Carrito</button>
+    <button id="realizarCompra">Realizar Compra</button>
+</section>
+
+<!-- Campo de búsqueda -->
+<input type="text" id="buscar" placeholder="Buscar productos">
+
+<!-- Script JavaScript -->
+<script src="js/Entrega2.js"></script>
+
+</body>
+</html>
+
